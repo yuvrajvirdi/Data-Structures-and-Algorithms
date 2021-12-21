@@ -10,9 +10,9 @@ class TreeNode:
 
 class Solution:
     def invertBinaryTree(self, root):
-        stack = [root] # root as array
+        stack = [root]
         while stack:
-            node = stack.pop() # assigns node value as stack popped element
+            node = stack.pop()
             if node:
                 node.left, node.right = node.right, node.left # swapping nodes
                 stack += [node.left, node.right]
