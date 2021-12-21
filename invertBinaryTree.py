@@ -15,5 +15,5 @@ class Solution:
             node = stack.pop()
             if node:
                 node.left, node.right = node.right, node.left # swapping nodes
-                stack+=[node.left, node.right]
+                stack += [node.left, node.right]
         return root
