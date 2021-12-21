@@ -23,10 +23,10 @@ def locateCard(cards,query):
         if middleNum == query:
             return middle
 
-        elif middle < query:
+        elif middleNum < query:
             high = middle - 1
 
-        elif middle > query:
+        elif middleNum > query:
             low = middle + 1
 
     return -1
