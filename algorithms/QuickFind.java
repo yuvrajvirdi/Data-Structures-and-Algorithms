@@ -1,7 +1,7 @@
-public class quickFind {
+public class QuickFind {
     private int[] id;
 
-    public quickFind(int N){
+    public QuickFind(int N){
         id = new int[N];
         for (int i = 0; i < N; i++)
         id[i] = i;
