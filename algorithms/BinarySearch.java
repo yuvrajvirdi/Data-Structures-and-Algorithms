@@ -1,3 +1,4 @@
+//generic binary search
 public class BinarySearch {
     public static int binarySearch(int[] a, int key){
         int low = 0, high = a.length -1;
