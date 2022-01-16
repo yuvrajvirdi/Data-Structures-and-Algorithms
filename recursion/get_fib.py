@@ -1,3 +1,4 @@
+# returns fibonacci number according to list of sequence
 def get_fib(position):
     if position == 0 or position == 1:
         return position
