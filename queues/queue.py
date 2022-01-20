@@ -10,3 +10,4 @@ class Queue(object):
 
     def dequeue(self):
         return self.storage.pop(0)
+    # utilizes pop and append methods 
